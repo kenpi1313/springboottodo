@@ -15,7 +15,13 @@ build/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/*
+!.idea/codeStyles
+!.idea/checkstyle-idea.xml
+!.idea/externalDependencies.xml
+!.idea/google-java-format.xml
+!.idea/inspectionProfiles
+!.idea/saveactions_settings.xml
 *.iws
 *.iml
 *.ipr
@@ -32,3 +38,5 @@ out/
 
 ### VS Code ###
 .vscode/
+
+.DS_Store
